@@ -22,5 +22,10 @@ namespace Ecommerce.Service.AuthService
         {
             return await _authRepository.Login(request);
         }
+
+        public async Task<string> Logout(LoginRequest request)
+        {
+            return await _authRepository.Login(request);
+        }
     }
 }
